@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Twitter Timeline</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="aside">
+    <nav>
+      <span class="x">x</span>
+      <ul class="ulaside">
+        <li><button class="buttonaside">Página inicial</button></li>
+        <li><button class="buttonaside">Explorar</button></li>
+        <li><button class="buttonaside">Notificações</button></li>
+        <li><button class="buttonaside">Mensagens</button></li>
+        <li><button class="buttonaside">Grok</button></li>
+        <li><button class="buttonaside">Comunidades</button></li>
+        <li><button class="buttonaside">Perfil</button></li>
+        <li><button class="buttonaside">Mais</button></li><br>
+        <li><button class="buttonaside1">Postar</button></li><br>
+        <li><button class="buttonaside2"><div class="ss"><span class="span1">A</span><div class="bit"><span class="span2">Adilson Vemba</span> <br> <span class="span3">renatovemba@gmail.com </span></div></div></button></li>
+      </ul>
+    </nav>
+  </aside>
+  <div class="container1">
+    <div class="new-post">
+      <textarea id="postInput" maxlength="280" placeholder="O que está acontecendo?"></textarea>
+      <div class="post-controls">
+        
+        <span id="charCount">280</span>
+        <button id="postButton" disabled>Postar</button>
+      </div>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+  <aside class="right-sidebar">
+    <div class="search-bar">
+      <input type="text" placeholder="Buscar">
+    </div>
+    
+    <div class="premium-box">
+      <h3>Assine o Premium</h3>
+      <p>Assine para desbloquear novos recursos e, se elegível, receba uma parte da receita.</p>
+      <button class="subscribe-btn">Inscrever-se</button>
+    </div>
+
+    <div class="trending-box">
+      <h3>O que está acontecendo</h3>
+      <p><strong>FSQny</strong></p>
+      <p>Política - Assunto do Momento</p>
+      <p><strong>Trump</strong></p>
+      <p>5,1 mi posts</p>
+      <a href="#">Mostrar mais</a>
+    </div>
+
+    <div class="who-to-follow">
+      <h3>Quem seguir</h3>
+      <div class="user-suggestion">
+        <img src="neymar.jpg" alt="Neymar Jr">
+        <div>
+          <p><strong>Neymar Jr</strong></p>
+          <p>@neymarjr</p>
+        </div>
+        <button class="follow-btn">Seguir</button>
+      </div>
+
+      <div class="user-suggestion">
+        <img src="fabricio.jpg" alt="Fabrizio Romano">
+        <div>
+          <p><strong>Fabrizio Romano</strong></p>
+          <p>@FabrizioRomano</p>
+        </div>
+        <button class="follow-btn">Seguir</button>
+      </div>
+
+      <div class="user-suggestion">
+        <img src="cristiano.jpg" alt="Cristiano Ronaldo">
+        <div>
+          <p><strong>Cristiano Ronaldo</strong></p>
+          <p>@Cristiano</p>
+        </div>
+        <button class="follow-btn">Seguir</button>
+      </div>
+
+      <a href="#">Mostrar mais</a>
+      <br>
+      <p>Termos de Serviço
+        Política de Privacidade
+        Política de cookies
+        Acessibilidade
+        Informações de anúncios
+        
+        Mais
+        © 2025 X Corp.</p>
+    </div>
+  </aside>
+
+  <script src="script.js"></script>
+</body>
+</html>
