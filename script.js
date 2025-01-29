@@ -87,15 +87,7 @@ function simulateRealTimeUpdates() {
 // Inicia o simulador de atualizações
 simulateRealTimeUpdates();
 
-const aside = document.querySelector(".aside");
-const menuToggle = document.createElement("button");
-menuToggle.classList.add("menu-toggle");
-menuToggle.textContent = "☰ Menu";
-document.body.appendChild(menuToggle);
 
-menuToggle.addEventListener("click", () => {
-    aside.style.left = aside.style.left === "0px" ? "-100%" : "0px";
-});
 
 document.addEventListener("DOMContentLoaded", () => {
   const aside = document.querySelector(".aside");
